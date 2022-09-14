@@ -10,7 +10,6 @@ bool is64bit()
 }
 
 bool isBigEndian(){
-	printf("0xFFFFFFFF\n");
 	return true;
 }
 
@@ -21,6 +20,7 @@ void le_show_bytes()
 }
 
 void be_show_bytes(){
+	printf("0xFFFFFFFF\n");
 	return;
 }
 
