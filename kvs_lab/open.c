@@ -7,6 +7,7 @@ kvs_t* open()
 
 	if(kvs)
 		kvs->items = 0;
+	printf("%d\n", kvs->items);
 
 	return kvs;
 }

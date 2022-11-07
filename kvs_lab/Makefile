@@ -3,7 +3,7 @@ LIBSRCS = open.c close.c put.c get.c seek.c
 TARG = kvs_static
 
 CC = gcc
-OPTS = -Wall -O
+OPTS = -Wall -g
 LIBS = -L. -lkvs
 
 OBJS = $(SRCS:.c=.o)
